@@ -88,7 +88,7 @@ def dress(smpl_tgt, body_src, garment, vert_inds, garment_tex = None):
 
     return ret_posed_interp
 
-path = '/BS/bharat/work/MGN_release/Multi-Garment_dataset/'
+path = 'Multi-Garment_dataset/'
 all_scans = glob(path + '*')
 garment_classes = ['Pants', 'ShortPants', 'ShirtNoCoat', 'TShirtNoCoat', 'LongCoat']
 gar_dict = {}

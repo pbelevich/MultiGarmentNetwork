@@ -17,7 +17,7 @@ from lib.ch_smpl import Smpl
 from dress_SMPL import load_smpl_from_file, pose_garment
 from utils.interpenetration_ind import remove_interpenetration_fast
 
-path = '/BS/bharat/work/MGN_release/Multi-Garment_dataset/'
+path = 'Multi-Garment_dataset/'
 all_scans = glob(path + '*')
 garment_classes = ['Pants', 'ShortPants', 'ShirtNoCoat', 'TShirtNoCoat', 'LongCoat']
 gar_dict = {}
